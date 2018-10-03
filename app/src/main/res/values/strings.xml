@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LocationExm</string>
+    <string name="sitios">Sitios Turisticos</string>
+    <string name="distritalInfo">Éste es un paso más hacia el reconocimiento de la calidad en los procesos que se adelantan en la Universidad, siendo fruto del esfuerzo compartido por los estudiantes, profesores, egresados, directivos y administrativos. En general de todas las personas que laboran para que todos los días tengamos una Universidad cada vez de mejor calidad.</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="maker_detail_latlng">(%1$.2f, %2$.2f)</string>
+    <string name="title_activity_maps_tipos">Map</string>
+    <string name="title_activity_maps_my_location">Map</string>
+</resources>
