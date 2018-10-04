@@ -42,7 +42,7 @@ public class MapsActivity extends AppCompatActivity implements GoogleMap.OnInfoW
 
         LatLng tadeo = new LatLng(4.6071633, -74.0682254);
         mMap.addMarker(new MarkerOptions().position(tadeo).title("Utadeo").snippet("Esta es la " +
-                "universidad tadeo bla bla bla...").icon(BitmapDescriptorFactory.fromResource(R.drawable.icons8_playa_64)));
+                "universidad tadeo bla bla bla...").icon(BitmapDescriptorFactory.fromResource(R.drawable.clothes)));
 
         //El draggable es para arrastrar la ubicacion de la EAN
         LatLng ean = new LatLng(4.6556277, -74.0571568);
@@ -121,6 +121,7 @@ public class MapsActivity extends AppCompatActivity implements GoogleMap.OnInfoW
         setTitle(R.string.sitios);
     }
 
+    //infWindow Listener
     @Override
     public void onInfoWindowClick(Marker marker) {
         if (marker.equals(infWindow)){

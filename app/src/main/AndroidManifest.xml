@@ -37,7 +37,7 @@
 
         <activity
             android:name=".MapsActivity"
-            android:label="@string/sitios" />
+            android:label="@string/tiendas" />
         <activity
             android:name=".MapsActivityTipos"
             android:label="@string/title_activity_maps_tipos" />
